@@ -171,7 +171,7 @@ export default function App() {
       <Button title="Выбрать дату" onPress={showDatePicker} />
       <DateTimePickerModal
         isVisible={isDatePickerVisible}
-        mode="datetime" // Здесь меняем mode на datetime для выбора даты и времени
+        mode="datetime" 
         onConfirm={handleConfirm}
         onCancel={hideDatePicker}
       />
